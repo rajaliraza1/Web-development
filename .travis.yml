@@ -3,7 +3,6 @@ node_js: "node"
 notifications:
   email: 
     recipients: 
-      - dan@lambdaschool.com
-      - karen@lambdaschool.com
+      - engr.razam@gmail.com
     on_success: always
     on_failure: never
