@@ -1,0 +1,102 @@
+#targetContainer1{
+top:1;
+position:absolute;
+border: 5px dashed black;
+}
+#download {
+position:absolute;
+top:0;
+position:200px;
+left:600px;
+}
+.paragraph{
+position:absolute;
+left:230px;
+}
+.divTable {
+left:1000px;
+padding:0px 5px;
+}
+.divTable{
+display: table;
+width: 50%;
+}
+.divTableRow {
+display: table-row;
+display-color: solid green;
+}
+.divTableHeading {
+background-color:green;
+display: table-header-group;
+}
+.divTableCell, .divTableHead {
+border: 2px solid #999999;
+display: table-cell;
+background-color:white;
+color:black;
+padding: 10px 50px;
+}
+.divTableHeading {
+background-color: black;
+color:yellow;
+display: table-header-group;
+font-weight: bold;
+}
+.divTableFoot {
+background-color: red;
+display: table-footer-group;
+font-weight: bold;
+}
+.divTableBody {
+display: table-row-group;
+}
+#targetContainer{
+border: 5px dashed red;
+position: 300px;
+}
+.objective
+{
+border: 3px solid gray;
+width:850px;
+position:relative;
+left:200px;
+}
+.targetContainer {
+top:30;
+border: 5px dashed red;
+width:120px;
+position: absolute;
+left:900px;
+}
+.wrapper{
+padding: 270px 230px;
+}
+#date{
+top:1205;
+position: absolute;
+display:flex;
+padding:0px 0px;
+}
+#date2{
+top:1670;
+position: absolute;
+display:flex;
+padding:0px 0px;
+}
+.date1{
+order:+5;
+padding:0px 400px;
+}
+.heading{
+padding:0px 200px;
+text-align:300px;
+}
+.adress{
+padding:0px 200px;
+}
+.email{
+padding:0px 200 px;
+}
+.technical{
+padding:0px 30px;
+}
