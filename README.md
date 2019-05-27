@@ -1,8 +1,5 @@
-# Lambda School Precourse Workshop
-This repo contains the instruction material and assignments for Lambda School's free mini-bootcamp.  Lambda School's free mini-bootcamp is a three week long course that covers the fundamentals of programming and web development.  Class is held at 5pm Pacific Time Monday through Thursday at the dates listed below.  This class is repeated and given live every month.
-
-To sign up for the program or to learn more about Lambda School's intensive Computer Science program, visit https://www.lambdaschool.com
-
+# Precourse Workshop
+This repo contains the instruction material and assignments for free mini-bootcamp.its a free mini-bootcamp is a three week long course that covers the fundamentals of programming and web development.  Class is held at 5pm Pacific Time Monday through Thursday at the dates listed below.  This class is repeated and given live every month.
 To receive help with the homework you can join our Slack team.  After registering for the mini-bootcamp on our website you will be sent an invitation to join Slack.  We have TAs available to answer questions about the homework.
 
 
@@ -30,7 +27,7 @@ Live stream recordings will also be listed here:
 If you have already forked this repository but you would like to add the new updates to your forked copy then type the following git commands from within your local repo:
 
 ```
-git remote add upstream https://github.com/LambdaSchool/Precourse.git
+git remote add upstream https://github.com/rajaliraza1/Web-development/tree/web-branch.git
 git pull upstream master
 ```
 
