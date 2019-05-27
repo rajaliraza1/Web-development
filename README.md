@@ -27,7 +27,7 @@ Live stream recordings will also be listed here:
 If you have already forked this repository but you would like to add the new updates to your forked copy then type the following git commands from within your local repo:
 
 ```
-git remote add upstream https://github.com/rajaliraza1/Web-development/tree/web-branch.git
+git remote add upstream https://github.com/rajaliraza1/Web-development.git
 git pull upstream master
 ```
 
