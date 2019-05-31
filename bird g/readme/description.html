@@ -1,0 +1,53 @@
+<html>
+<head>
+<div id="targetContainer1">
+<style>
+#targetContainer1{
+top:1;
+position:absolute;
+border: 5px dashed black;
+}
+.objective
+{
+position:relative;
+left:0px;
+}
+</style>
+</head>
+<body>
+<div class="objective">
+<h2>contents:</h2>.</div>
+contents:
+images folder
+sound effects
+HTML 5
+Javascript
+<div id="paragraph" class="paragraph">
+<p><u><h4>flybird</h4>
+</u><ul>
+<li>Draw canvas,canvas id width height etc name it to main.htm</li>    
+<li>Draw images to the canvas continuously took var cvs and got canvas getElementById</li>
+<li>Get context method what ever we want to draw </li>
+<li>Took variable for img and load images as new images(); assign the image location img src to the canvas</li>
+<li>took variable audio new audio(); and assign the audio location</li>
+<li>ctx draw images name,x,y,width,height  background img bg x=0,y=0; </li>
+<li>Draw the pipe north pixcel of x and pixcel of y </li>
+<li>Draw the south pixcel of x and y and constant y to the pipe south</li>
+<li>Draw the floor ground name fg on the zero position and canvas height
+    cvs floorgroung height and canvas height-floorgroung height</li>
+<li>Draw bird position like bird of x position and bird of y position (bird,bx,by) </li>
+<li>For continuously call function use  requestAnimationFrame(draw);</li>
+<li>Define gravity if bird goes up gravity takes it down so bird in y axis move up
+     gravity take it down e.g by=by+gravity;</li>
+<li>Drwa an array for pipe x position is canvas width and y position is 0
+     run for loop for legth of the pipe lessthan i than i increment.
+     </li>
+<li>Draw image pipe north which is pipe for i loop x-axis,and draw image pipe for i loop of y-axis</li>
+<li>Draw image  pipe south where pipe of i loop x-axis and pipe of i loop y-axis</li>
+<li>if pipe of i x-axis equal to canvas width-188 when pipe push its zero we used          
+    math.floor for integer and math.random for random and multlipy with pipe north          
+    height and minus pipe north height so we can get the new pipes images randomly</li>
+<li>If bird bx+bird.width >=pipe of x px+pipe.width game reset</li>
+<li>If bird by<=pipe py+pipe.height and bird by +bird.height>=py+const game reset</li>
+<li>If bird by+bird.height >=canvas height minus floorground height game reset</li>
+</p></div>
